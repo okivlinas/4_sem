@@ -1,0 +1,24 @@
+#myForm {
+    display: flex;
+    max-width: 600px;
+}
+.txt{
+    flex-basis: 200px;
+    border: 1px solid #373333;
+    border-radius: 5px;
+}
+.sps{
+    display: flex;
+    flex-basis: 200px;
+    border: 1px solid #373333;
+    border-radius: 5px;
+}
+.txtarea{
+    flex: 1;
+    height: 50px;
+    border: 1px solid #373333;
+    border-radius: 5px;
+}
+label {
+flex-basis: 200px;
+}
