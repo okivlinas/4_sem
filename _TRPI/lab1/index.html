@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <form>
         <b>Заполните форму:</b>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Фамилия</label>
-            <input class="txt" type="text" name="Fam">
+            <input class="txt" id="Fam" type="text" name="Fam">
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Имя</label>
-            <input class="txt" type="text" name="Nam">
+            <input class="txt" id="Nam" type="text" name="Nam">
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>E-mail</label>
             <input class="txt" type="text" name="Mail">
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Телефон (0xx)xxx-xx-xx</label>
             <input class="txt" type="text" name="Tel">
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Город</label>
             <select class="txt">
                 <option value="1">Мозырь</option>
@@ -41,25 +40,26 @@
             </select>
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Я учусь в БГТУ</label>
             <input class="clr" type="checkbox" name="Fam">
         </div>
         <br>
-        <div id="myForm1">
+        <div class="myForm1">
             <label>На каком курсе вы учитесь?</label>
             <input class="clr" type="radio" name="1">1
-            <input class="clr" type="radio" name="2">2
-            <input class="clr" type="radio" name="3">3
-            <input class="clr" type="radio" name="4">4
+            <input class="clr" type="radio" name="1">2
+            <input class="clr" type="radio" name="1">3
+            <input class="clr" type="radio" name="1">4
         </div>
         <br>
-        <div id="myForm">
+        <div class="myForm">
             <label>Расскажите о себе</label>
-            <textarea class="txtarea">< /textarea>
+            <textarea class="txtarea"></textarea>
         </div>
         <br>
         <button>Проверить</button>
+        <script src="script.js"></script>
    </form>
 </body>
 </html>

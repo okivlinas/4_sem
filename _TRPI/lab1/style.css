@@ -1,19 +1,13 @@
-#myForm {
+.myForm {
     display: flex;
     max-width: 600px;
 }
-.txt {
+.txt{
     flex-basis: 200px;
     border: 1px solid #373333;
     border-radius: 5px;
 }
-.sps {
-    display: flex;
-    flex-basis: 200px;
-    border: 1px solid #373333;
-    border-radius: 5px;
-}
-.txtarea {
+.txtarea{
     flex: 1;
     height: 50px;
     border: 1px solid #373333;
