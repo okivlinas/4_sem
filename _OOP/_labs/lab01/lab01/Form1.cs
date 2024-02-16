@@ -31,28 +31,23 @@ namespace lab01
             string srok = textBox7.Text;
             bool containsOnlyDigits5 = srok.All(char.IsDigit);
 
-            if((radioButton1.Checked || radioButton2.Checked) && ((radioButton3.Checked || radioButton4.Checked) || radioButton5.Checked) && containsOnlyDigits1 == true && containsOnlyDigits2 == true && containsOnlyDigits3 == true && containsOnlyDigits4 == true && containsOnlyDigits5 == true)
+            try
             {
-
+                if (!((radioButton1.Checked || radioButton2.Checked) && containsOnlyDigits1 == true && containsOnlyDigits2 == true && containsOnlyDigits3 == true && containsOnlyDigits4 == true && containsOnlyDigits5 == true))
+                {
+                    throw new Exception();
+                }
                 double ves1 = Convert.ToDouble(ves);
                 double rost1 = Convert.ToDouble(rost);
                 double vozrast1 = Convert.ToDouble(vozrast);
                 double zhelVes1 = Convert.ToDouble(zhelVes);
                 double srok1 = Convert.ToDouble(srok);
+                int fl = 0;
 
                 double imt = ves1 / (rost1 * rost1 / 10000);
-
-                if (radioButton3.Checked)
+                if (radioButton2.Checked)
                 {
-                    zhelVes1 = ves1;
-                }
-                else if (radioButton4.Checked)
-                {
-                    zhelVes1 = ves1 * 0.9;
-                }
-                else if (radioButton5.Checked)
-                {
-                    zhelVes1 = ves1 * 1.1;
+                    imt *= 0.95;
                 }
 
                 double BOV = 0;
@@ -66,32 +61,51 @@ namespace lab01
                     BOV = 447.593 + (9.247 * zhelVes1) + (3.098 * rost1) - (4.330 * vozrast1);
                 }
 
-                double normKal;
-
-                if (imt < 18.5)
+                double normKal = 0;
+                if (imt < 18.5 && fl == 0)
                 {
                     textBox4.Text = "Низкий вес";
                     normKal = BOV * 1.2;
                 }
-                else if (imt < 25)
+                else if (imt < 25 && fl == 0)
                 {
                     textBox4.Text = "Нормальный вес";
                     normKal = BOV;
                 }
-                else
+                else if (fl == 0)
                 {
                     textBox4.Text = "Ожирение";
                     normKal = BOV * 0.8;
                 }
 
-                double obskKolKal = normKal * srok1;
+                int ind = comboBox1.SelectedIndex;
+                if (ind == 0 && ves1 > zhelVes1)//сжигание
+                {
+                    zhelVes1 = ves1 * 0.9;
+                    normKal = (srok1 - 1) / srok1 * normKal;
 
-                double kalDZhelVes = obskKolKal / srok1;
+                }
+                else if (ind == 1 && ves1 < zhelVes1)//набор
+                {
+                    normKal = srok1 / (srok1 - 1) * normKal;
 
-                string kalDZhelVes1 = Convert.ToString(kalDZhelVes);
-                textBox5.Text = kalDZhelVes1;
+                }
+                else if (ind == 2 && zhelVes1 == ves1)//поддержание
+                {
+                    normKal = normKal;
+                }
+                else
+                {
+                    textBox4.Text = "Все поля должны быть";
+                    textBox5.Text = "заполнены правильно!";
+                    fl = 1;
+                }
+
+                string kalDZhelVes1 = Convert.ToString(normKal);
+                if (fl == 0) textBox5.Text = kalDZhelVes1;
+                else textBox5.Text = "заполнены правильно!";
             }
-            else
+            catch
             {
                 textBox4.Text = "Все поля должны быть";
                 textBox5.Text = "заполнены правильно!";
@@ -180,6 +194,21 @@ namespace lab01
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
         }
