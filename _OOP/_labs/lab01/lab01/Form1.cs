@@ -71,7 +71,7 @@ namespace lab01
                 {
                     textBox4.Text = "Нормальный вес";
                     normKal = BOV;
-                }
+                } 
                 else if (fl == 0)
                 {
                     textBox4.Text = "Ожирение";
