@@ -1,6 +1,2 @@
-﻿  Comb.cpp
-  Knapsack.cpp
-D:\Документы\_study\_university\4_sem\_MathProg\lab2\task5\task5\Comb.cpp(33,37): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
-  task5.cpp
-  Создание кода...
+﻿  task5.cpp
   task5.vcxproj -> D:\Документы\_study\_university\4_sem\_MathProg\lab2\task5\x64\Debug\task5.exe

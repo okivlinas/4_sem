@@ -29,7 +29,7 @@ int _tmain(int argc, _TCHAR* argv[])
         );
 
         t2 = clock();
-        std::cout << t2 - t1 << std::endl;
+        std::cout << "Время затраченное для " << i << " предметов: " << t2 - t1 << std::endl;
     }
 
     std::cout << std::endl << "-------- Задача о рюкзаке ---------";
@@ -46,7 +46,14 @@ int _tmain(int argc, _TCHAR* argv[])
     int s = 0; for (int i = 0; i < NN; i++) s += m[i] * v[i];
     std::cout << s;
     std::cout << std::endl << "- выбраны предметы: ";
-    for (int i = 0; i < NN; i++) std::cout << " " << m[i];
+    for (int i = 0; i < NN; i++) {
+        if(i+1<10) std::cout << " " << m[i];
+        else std::cout << "  " << m[i];
+    } 
+    std::cout << std::endl << "- выбраны предметы: ";
+    for (int i = 0; i < NN; i++) {
+        std::cout << " " << i+1;
+    } 
     std::cout << std::endl << std::endl;
     return 0;
 }

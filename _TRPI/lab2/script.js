@@ -33,84 +33,84 @@ function refresh() {
   document.getElementById("result").innerHTML = result;
 }
 
-    function mix() {
-            async function correctClick()
-        {
-            this.style.top=-8 + 'vw';
-            await wait(2000);
-            this.style.top=0+'vw';
-            result++;
-            document.getElementById('result').innerHTML =   result;
-            clearCones(listOfCones)
-            mix();
-        }
-        async function uncorrectClick()
-        {
-            this.style.top=-8 + 'vw';
-            await wait(2000);
-            this.style.top=0+'vw';
-            result--;
-            document.getElementById('result').innerHTML =   result;
-            clearCones(listOfCones)
-            mix();
-        }
-
-        function  clearCones(listOfConesArg)
-        {
-            listOfConesArg.forEach((cone)=>{
-                if(cone.flagCorrect===true)
-                {
-                    cone.coneLink.removeEventListener('click',correctClick)
-                }
-                else
-                {
-                    cone.coneLink.removeEventListener('click',uncorrectClick)
-                }
-
-            })
-            listOfCones=[]
-        }
-
-        function wait(ms) {
-            return new Promise(resolve => setTimeout(resolve, ms));
-        }
-
-        let cones = document.querySelectorAll(".cone")
-        let listOfCones=[];
-        let ball=document.getElementById("ball");
-        let randomNumber = Math.floor(Math.random() * 3);
-        let selectedCone = cones[randomNumber];
-        let coneRect = selectedCone.getBoundingClientRect();
-
-        cones.forEach((cone)=>{
-            listOfCones.push({
-                flagCorrect:false,
-                coneLink:cone
-            })
-            cone.addEventListener('click', uncorrectClick)
-        })
-
-        if(randomNumber===0)
-        {
-            ball.style.left=selectedCone.width*0.4+"px";
-            cones[randomNumber].removeEventListener('click',uncorrectClick)
-            listOfCones[randomNumber].flagCorrect=true;
-            cones[randomNumber].addEventListener('click',correctClick)
-        }
-        if(randomNumber===1)
-        {
-            ball.style.left=selectedCone.width*1.4+"px";
-            cones[randomNumber].removeEventListener('click',uncorrectClick)
-            listOfCones[randomNumber].flagCorrect=true;
-            cones[randomNumber].addEventListener('click',correctClick)
-        }
-        if(randomNumber===2)
-        {
-            ball.style.left=selectedCone.width*2.4+"px";
-            cones[randomNumber].removeEventListener('click',uncorrectClick)
-            listOfCones[randomNumber].flagCorrect=true;
-            cones[randomNumber].addEventListener('click',correctClick)
-        }
-        ball.style.top = 0.8*coneRect.height + "px";
+function mix() {
+    async function correctClick()
+    {
+        this.style.top=-8 + 'vw';
+        await wait(2000);
+        this.style.top=0+'vw';
+        result++;
+        document.getElementById('result').innerHTML =   result;
+        clearCones(listOfCones)
+        mix();
     }
-    mix();
+    async function uncorrectClick()
+    {
+        this.style.top=-8 + 'vw';
+        await wait(2000);
+        this.style.top=0+'vw';
+        result--;
+        document.getElementById('result').innerHTML =   result;
+        clearCones(listOfCones)
+        mix();
+    }
+
+    function  clearCones(listOfConesArg)
+    {
+        listOfConesArg.forEach((cone)=>{
+            if(cone.flagCorrect===true)
+            {
+                cone.coneLink.removeEventListener('click',correctClick)
+            }
+            else
+            {
+                cone.coneLink.removeEventListener('click',uncorrectClick)
+            }
+
+        })
+        listOfCones=[]
+    }
+
+    function wait(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    let cones = document.querySelectorAll(".cone")
+    let listOfCones=[];
+    let ball=document.getElementById("ball");
+    let randomNumber = Math.floor(Math.random() * 3);
+    let selectedCone = cones[randomNumber];
+    let coneRect = selectedCone.getBoundingClientRect();
+
+    cones.forEach((cone)=>{
+        listOfCones.push({
+            flagCorrect:false,
+            coneLink:cone
+        })
+        cone.addEventListener('click', uncorrectClick)
+    })
+
+    if(randomNumber===0)
+    {
+        ball.style.left=selectedCone.width*0.4+"px";
+        cones[randomNumber].removeEventListener('click',uncorrectClick)
+        listOfCones[randomNumber].flagCorrect=true;
+        cones[randomNumber].addEventListener('click',correctClick)
+    }
+    if(randomNumber===1)
+    {
+        ball.style.left=selectedCone.width*1.4+"px";
+        cones[randomNumber].removeEventListener('click',uncorrectClick)
+        listOfCones[randomNumber].flagCorrect=true;
+        cones[randomNumber].addEventListener('click',correctClick)
+    }
+    if(randomNumber===2)
+    {
+        ball.style.left=selectedCone.width*2.4+"px";
+        cones[randomNumber].removeEventListener('click',uncorrectClick)
+        listOfCones[randomNumber].flagCorrect=true;
+        cones[randomNumber].addEventListener('click',correctClick)
+    }
+    ball.style.top = 0.8*coneRect.height + "px";
+}
+mix();
