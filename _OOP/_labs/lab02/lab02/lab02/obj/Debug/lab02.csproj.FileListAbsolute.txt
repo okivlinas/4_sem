@@ -1,0 +1,14 @@
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\bin\Debug\lab02.exe.config
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\bin\Debug\lab02.exe
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\bin\Debug\lab02.pdb
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.csproj.AssemblyReference.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.Form1.resources
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.Properties.Resources.resources
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.csproj.GenerateResource.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.csproj.CoreCompileInputs.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.exe
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.pdb
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.Form2.resources
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\bin\Debug\Newtonsoft.Json.dll
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\bin\Debug\Newtonsoft.Json.xml
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab02\lab02\lab02\obj\Debug\lab02.csproj.CopyComplete
