@@ -5,7 +5,7 @@ create database Kiv_MyBase on primary
    size = 10240Kb, maxsize=UNLIMITED, filegrowth=1024Kb),
 ( name = N'Kiv_MyBase_ndf', filename = N'D:\Документы\_study\_university\4_sem\_DataBase\_labs\lab3\pap\Kiv_MyBase_ndf.ndf', 
    size = 10240KB, maxsize=1Gb, filegrowth=25%),
-filegroup FG1
+filegroup FG
 ( name = N'Kiv_MyBase_fg1_1', filename = N'D:\Документы\_study\_university\4_sem\_DataBase\_labs\lab3\pap\Kiv_MyBase_fgq-1.ndf', 
    size = 10240Kb, maxsize=1Gb, filegrowth=25%),
 ( name = N'Kiv_MyBase_fg1_2', filename = N'D:\Документы\_study\_university\4_sem\_DataBase\_labs\lab3\pap\Kiv_MyBase_fgq-2.ndf', 
