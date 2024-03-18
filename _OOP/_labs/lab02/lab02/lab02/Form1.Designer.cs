@@ -50,14 +50,24 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.mToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сортировкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.частотеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оЗУToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сортировкуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оПрогрмаммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 21);
+            this.label1.Location = new System.Drawing.Point(9, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 16);
             this.label1.TabIndex = 0;
@@ -72,7 +82,7 @@
             "рабочая станция",
             "ноутбук",
             "ПК"});
-            this.comboBox1.Location = new System.Drawing.Point(138, 18);
+            this.comboBox1.Location = new System.Drawing.Point(126, 72);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(183, 24);
             this.comboBox1.TabIndex = 1;
@@ -81,7 +91,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(456, 168);
+            this.label2.Location = new System.Drawing.Point(444, 222);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 2;
@@ -95,7 +105,7 @@
             "Lenovo",
             "Gainward",
             "Palit"});
-            this.comboBox3.Location = new System.Drawing.Point(468, 21);
+            this.comboBox3.Location = new System.Drawing.Point(456, 75);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(183, 24);
             this.comboBox3.TabIndex = 5;
@@ -103,7 +113,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(351, 24);
+            this.label3.Location = new System.Drawing.Point(339, 78);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 16);
             this.label3.TabIndex = 4;
@@ -112,7 +122,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 63);
+            this.label4.Location = new System.Drawing.Point(12, 117);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 16);
             this.label4.TabIndex = 6;
@@ -121,7 +131,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(367, 62);
+            this.label5.Location = new System.Drawing.Point(355, 116);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 16);
             this.label5.TabIndex = 8;
@@ -131,7 +141,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(269, 149);
+            this.label6.Location = new System.Drawing.Point(257, 203);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 16);
             this.label6.TabIndex = 14;
@@ -139,7 +149,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(151, 148);
+            this.numericUpDown2.Location = new System.Drawing.Point(139, 202);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(101, 22);
             this.numericUpDown2.TabIndex = 13;
@@ -147,7 +157,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(25, 149);
+            this.label7.Location = new System.Drawing.Point(13, 203);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(120, 16);
             this.label7.TabIndex = 12;
@@ -160,7 +170,7 @@
             this.comboBox4.Items.AddRange(new object[] {
             "HHD",
             "SSD"});
-            this.comboBox4.Location = new System.Drawing.Point(357, 147);
+            this.comboBox4.Location = new System.Drawing.Point(345, 201);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(73, 24);
             this.comboBox4.TabIndex = 15;
@@ -169,7 +179,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(25, 197);
+            this.label8.Location = new System.Drawing.Point(13, 251);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(136, 16);
             this.label8.TabIndex = 17;
@@ -178,7 +188,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(554, 129);
+            this.button1.Location = new System.Drawing.Point(542, 183);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(146, 94);
             this.button1.TabIndex = 18;
@@ -190,7 +200,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(24, 281);
+            this.listBox1.Location = new System.Drawing.Point(12, 335);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(1151, 148);
             this.listBox1.TabIndex = 20;
@@ -198,7 +208,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(468, 58);
+            this.radioButton1.Location = new System.Drawing.Point(456, 112);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(65, 20);
             this.radioButton1.TabIndex = 21;
@@ -209,7 +219,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(468, 84);
+            this.radioButton2.Location = new System.Drawing.Point(456, 138);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(65, 20);
             this.radioButton2.TabIndex = 22;
@@ -220,7 +230,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(468, 110);
+            this.radioButton3.Location = new System.Drawing.Point(456, 164);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(65, 20);
             this.radioButton3.TabIndex = 23;
@@ -231,7 +241,7 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.maskedTextBox1.Location = new System.Drawing.Point(167, 194);
+            this.maskedTextBox1.Location = new System.Drawing.Point(155, 248);
             this.maskedTextBox1.Mask = "0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(46, 22);
@@ -240,7 +250,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(615, 250);
+            this.button4.Location = new System.Drawing.Point(603, 304);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(135, 25);
             this.button4.TabIndex = 29;
@@ -250,7 +260,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(326, 250);
+            this.button3.Location = new System.Drawing.Point(314, 304);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 25);
             this.button3.TabIndex = 28;
@@ -260,7 +270,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(24, 250);
+            this.button2.Location = new System.Drawing.Point(12, 304);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 25);
             this.button2.TabIndex = 27;
@@ -270,16 +280,85 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(138, 63);
+            this.numericUpDown1.Location = new System.Drawing.Point(126, 117);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(101, 22);
             this.numericUpDown1.TabIndex = 30;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mToolStripMenuItem,
+            this.сортировкаToolStripMenuItem,
+            this.сохранитьToolStripMenuItem,
+            this.оПрогрмаммеToolStripMenuItem});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1204, 25);
+            this.toolStrip1.TabIndex = 31;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // mToolStripMenuItem
+            // 
+            this.mToolStripMenuItem.Name = "mToolStripMenuItem";
+            this.mToolStripMenuItem.Size = new System.Drawing.Size(66, 25);
+            this.mToolStripMenuItem.Text = "Поиск";
+            // 
+            // сортировкаToolStripMenuItem
+            // 
+            this.сортировкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.частотеToolStripMenuItem,
+            this.оЗУToolStripMenuItem});
+            this.сортировкаToolStripMenuItem.Name = "сортировкаToolStripMenuItem";
+            this.сортировкаToolStripMenuItem.Size = new System.Drawing.Size(106, 25);
+            this.сортировкаToolStripMenuItem.Text = "Сортировка";
+            // 
+            // частотеToolStripMenuItem
+            // 
+            this.частотеToolStripMenuItem.Name = "частотеToolStripMenuItem";
+            this.частотеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.частотеToolStripMenuItem.Text = "Частоте";
+            // 
+            // оЗУToolStripMenuItem
+            // 
+            this.оЗУToolStripMenuItem.Name = "оЗУToolStripMenuItem";
+            this.оЗУToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.оЗУToolStripMenuItem.Text = "ОЗУ";
+            // 
+            // сохранитьToolStripMenuItem
+            // 
+            this.сохранитьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.сортировкуToolStripMenuItem,
+            this.поискToolStripMenuItem});
+            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(97, 25);
+            this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            // 
+            // сортировкуToolStripMenuItem
+            // 
+            this.сортировкуToolStripMenuItem.Name = "сортировкуToolStripMenuItem";
+            this.сортировкуToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.сортировкуToolStripMenuItem.Text = "Сортировку";
+            // 
+            // поискToolStripMenuItem
+            // 
+            this.поискToolStripMenuItem.Name = "поискToolStripMenuItem";
+            this.поискToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.поискToolStripMenuItem.Text = "Поиск";
+            // 
+            // оПрогрмаммеToolStripMenuItem
+            // 
+            this.оПрогрмаммеToolStripMenuItem.Name = "оПрогрмаммеToolStripMenuItem";
+            this.оПрогрмаммеToolStripMenuItem.Size = new System.Drawing.Size(129, 25);
+            this.оПрогрмаммеToolStripMenuItem.Text = "О прогрмамме";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 450);
+            this.ClientSize = new System.Drawing.Size(1204, 495);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -307,6 +386,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -336,6 +417,15 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сортировкаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem частотеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оЗУToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сортировкуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поискToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оПрогрмаммеToolStripMenuItem;
     }
 }
 
