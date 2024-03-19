@@ -5,6 +5,15 @@ var array = [
     { id: 4, name: 'Petya', group: 10 },
     { id: 5, name: 'Kira', group: 11 },
 ];
+var uniqueGroups = [];
+array.forEach(function (person) {
+    uniqueGroups.push(person.group);
+});
+uniqueGroups.forEach(function (group) {
+    console.log(group);
+});
+//array.sort((a, b) => a.group - b.group);
+console.log(array);
 var car = {}; //объект создан!
 car.manufacturer = "manufacturer";
 car.model = 'model';
@@ -84,7 +93,7 @@ var myGroup = {
 };
 console.log(myGroup.studentsFilter(5));
 console.log(myGroup.marksFilter(10));
-//myGroup.deleteStudent(2);
+myGroup.deleteStudent(2);
 for (var _i = 0, _a = myGroup.students; _i < _a.length; _i++) {
     var a = _a[_i];
     console.log(a);

@@ -4,7 +4,6 @@ type Person = {
     name: string,
     group: number
 }
-
 const array: Person[] = [
     {id: 1, name: 'Vasya', group: 10},
     {id: 2, name: 'Ivan', group: 11},
@@ -13,6 +12,17 @@ const array: Person[] = [
     {id: 5, name: 'Kira', group: 11},
 ]
 
+const uniqueGroups: number[] = [];
+array.forEach((person) => {
+        uniqueGroups.push(person.group);
+});
+
+uniqueGroups.forEach((group) => {
+    console.log(group);
+});
+//array.sort((a, b) => a.group - b.group);
+
+console.log(array);
 //task2
 type CarsType = {
     manufacturer?: string;
@@ -142,7 +152,7 @@ const myGroup: GroupType = {
 }
 console.log(myGroup.studentsFilter(5));
 console.log(myGroup.marksFilter(10));
-//myGroup.deleteStudent(2);
+myGroup.deleteStudent(2);
 
 for(let a of myGroup.students)
 {
