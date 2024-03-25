@@ -11,17 +11,9 @@ const array: Person[] = [
     {id: 4, name: 'Petya', group: 10},
     {id: 5, name: 'Kira', group: 11},
 ]
-
-const uniqueGroups: number[] = [];
-array.forEach((person) => {
-        uniqueGroups.push(person.group);
-});
-
-uniqueGroups.forEach((group) => {
-    console.log(group);
-});
-//array.sort((a, b) => a.group - b.group);
-
+for(let i = 0; i < array.length; i++){
+    console.log(array[i].group)
+}
 console.log(array);
 //task2
 type CarsType = {
@@ -100,27 +92,23 @@ const student03: StudentType  = {
     group: 9,
     marks: [mark01]
 }
-
 type GroupType = {
-    students: Array<StudentType>;
-    studentsFilter: (group: GroupFilterType) => Array<StudentType>;
-    marksFilter: (mark: MarkFilterType) => Array<StudentType>;
-    deleteStudent: (id: number) => void;
-    mark: MarkFilterType;
-    group: GroupFilterType;
-};
+    students: StudentType[]
+    studentsFilter:(group: MarkFilterType) => Array<StudentType>
+    marksFilter: (mark: GroupFilterType) => Array<StudentType>
+    deleteStudent: (id: number) => void
+    mark: MarkFilterType
+    group:GroupFilterType
+}
 
 const myGroup: GroupType = {
     students: [student01, student02, student03],
     studentsFilter(group: GroupFilterType): Array<StudentType>
     {
         const filteredStudents: Array<StudentType> = [];
-
-        for (let student of this.students)
-        {
-            if (student.group == group)
-            {
-                filteredStudents.push(student);
+        for(let i=0;i<this.students.length;i++){
+            if(this.group[i] == group) {
+                filteredStudents.push(this.students[i]);
             }
         }
         return filteredStudents;
@@ -128,24 +116,17 @@ const myGroup: GroupType = {
     marksFilter(mark: MarkFilterType): Array<StudentType>
     {
         const filteredStudents: Array<StudentType> = [];
-
-        for (let student of this.students)
-        {
-            for(let mark_ of student.marks) {
-
-                if (mark_.mark == mark)
-                {
-                    filteredStudents.push(student);
+        for(let i=0;i<this.students.length;i++){
+            for(let j=0;j<this.students.marks.length;j++){
+                if(this.students.marks[i] == mark) {
+                    filteredStudents.push(this.students[i]);
                 }
             }
-
         }
         return filteredStudents;
     },
-
-    deleteStudent(id: number): void
-    {
-        this.students = this.students.filter((student) => student.id !== id);
+    deleteStudent(id:number):void{
+        this.students = this.students.filter((student) => student.id !== id)
     },
     mark: 1,
     group: 1

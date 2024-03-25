@@ -5,14 +5,9 @@ var array = [
     { id: 4, name: 'Petya', group: 10 },
     { id: 5, name: 'Kira', group: 11 },
 ];
-var uniqueGroups = [];
-array.forEach(function (person) {
-    uniqueGroups.push(person.group);
-});
-uniqueGroups.forEach(function (group) {
-    console.log(group);
-});
-//array.sort((a, b) => a.group - b.group);
+for (var i = 0; i < array.length; i++) {
+    console.log(array[i].group);
+}
 console.log(array);
 var car = {}; //объект создан!
 car.manufacturer = "manufacturer";
@@ -60,41 +55,3 @@ var student03 = {
     group: 9,
     marks: [mark01]
 };
-var myGroup = {
-    students: [student01, student02, student03],
-    studentsFilter: function (group) {
-        var filteredStudents = [];
-        for (var _i = 0, _a = this.students; _i < _a.length; _i++) {
-            var student = _a[_i];
-            if (student.group == group) {
-                filteredStudents.push(student);
-            }
-        }
-        return filteredStudents;
-    },
-    marksFilter: function (mark) {
-        var filteredStudents = [];
-        for (var _i = 0, _a = this.students; _i < _a.length; _i++) {
-            var student = _a[_i];
-            for (var _b = 0, _c = student.marks; _b < _c.length; _b++) {
-                var mark_ = _c[_b];
-                if (mark_.mark == mark) {
-                    filteredStudents.push(student);
-                }
-            }
-        }
-        return filteredStudents;
-    },
-    deleteStudent: function (id) {
-        this.students = this.students.filter(function (student) { return student.id !== id; });
-    },
-    mark: 1,
-    group: 1
-};
-console.log(myGroup.studentsFilter(5));
-console.log(myGroup.marksFilter(10));
-myGroup.deleteStudent(2);
-for (var _i = 0, _a = myGroup.students; _i < _a.length; _i++) {
-    var a = _a[_i];
-    console.log(a);
-}
