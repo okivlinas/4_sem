@@ -55,3 +55,38 @@ var student03 = {
     group: 9,
     marks: [mark01]
 };
+var myGroup = {
+    students: [student01, student02, student03],
+    studentsFilter: function (group) {
+        var filteredStudents = [];
+        for (var i = 0; i < this.students.length; i++) {
+            if (this.group[i] == group) {
+                filteredStudents.push(this.students[i]);
+            }
+        }
+        return filteredStudents;
+    },
+    marksFilter: function (mark) {
+        var filteredStudents = [];
+        for (var i = 0; i < this.students.length; i++) {
+            for (var j = 0; j < this.students.marks.length; j++) {
+                if (this.students.marks[i] == mark) {
+                    filteredStudents.push(this.students[i]);
+                }
+            }
+        }
+        return filteredStudents;
+    },
+    deleteStudent: function (id) {
+        this.students = this.students.filter(function (student) { return student.id !== id; });
+    },
+    mark: 1,
+    group: 1
+};
+console.log(myGroup.studentsFilter(5));
+console.log(myGroup.marksFilter(10));
+myGroup.deleteStudent(2);
+for (var _i = 0, _a = myGroup.students; _i < _a.length; _i++) {
+    var a = _a[_i];
+    console.log(a);
+}

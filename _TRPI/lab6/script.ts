@@ -11,8 +11,8 @@ const array: Person[] = [
     {id: 4, name: 'Petya', group: 10},
     {id: 5, name: 'Kira', group: 11},
 ]
-for(let i = 0; i < array.length; i++){
-    console.log(array[i].group)
+for(let i=0;i<array.length;i++){
+    console.log(array[i].group);
 }
 console.log(array);
 //task2
@@ -98,7 +98,7 @@ type GroupType = {
     marksFilter: (mark: GroupFilterType) => Array<StudentType>
     deleteStudent: (id: number) => void
     mark: MarkFilterType
-    group:GroupFilterType
+    group: GroupFilterType
 }
 
 const myGroup: GroupType = {
