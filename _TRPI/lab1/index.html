@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm" onsubmit="return ValidForm()" novalidate>
+    <div class="form">
+
+    <b>Заполните форму:</b>
+
+    <div>
+        <label for="fam">Фамилия</label>
+        <input type="text" name="fam" required id = "fam" >
+    </div>
+    <span id="famError"></span>
+
+    <div>
+        <label for="name" id = "name">Имя</label>
+        <input type="text" name="name" id="name1" required>
+    </div>
+    <span id="nameError"></span>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id = "email" required>
+    </div>
+    <span id="emailError"></span>
+
+    <div>
+        <label for="tel">Телефон(0xx)xxx-xx-xx</label>
+        <input type="text" name="tel" id="tel" required>
+    </div>
+    <span id="telError"></span>
+    <div>
+
+    <label for="city">Город</label>
+    <select name="city" id="select">
+        <option>Выберите вариант</option>
+        <option value="Минск">Минск</option>
+        <option value="Мозырь">Мозырь</option>
+        <option value="Калинковичи">Калинковичи</option>
+        <option value="Загорины">Загорины</option>
+        <option value="Мерабель">Мерабель</option>
+    </select>
+    </div>
+    <span id="selectError"></span>
+
+    <div>
+        <label for="terms">Я учусь в БГТУ</label>
+        <input type="checkbox" id="bstu" name="terms">
+    </div>
+
+    <div class="radio">
+        <p>На каком курсе вы учитесь?</p>
+        <label>
+            <input type="radio" name="course" value="1">1
+        </label>
+        <label>
+            <input type="radio" name="course" value="2">2
+        </label>
+        <label>
+            <input type="radio" name="course" value="3" id="course3">3
+        </label>
+        <label>
+            <input type="radio" name="course" value="4">4
+        </label>
+    </div>
+
+    <div class="com">
+        <label for="comments">Расскажите о себе</label>
+        <textarea name="comments" id="com"></textarea>
+    </div>
+    <span id="comError"></span>
+    <input type="submit" id="submit" name="submit>batt" value="Проверить">
+
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

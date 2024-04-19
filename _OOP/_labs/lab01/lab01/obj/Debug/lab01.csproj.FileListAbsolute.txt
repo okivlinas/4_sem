@@ -1,0 +1,10 @@
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\bin\Debug\lab01.exe.config
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\bin\Debug\lab01.exe
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\bin\Debug\lab01.pdb
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.csproj.AssemblyReference.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.Form1.resources
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.Properties.Resources.resources
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.csproj.GenerateResource.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.csproj.CoreCompileInputs.cache
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.exe
+D:\Документы\_study\_university\4_sem\_OOP\_labs\lab01\lab01\obj\Debug\lab01.pdb
