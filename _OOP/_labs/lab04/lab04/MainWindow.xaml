@@ -1,0 +1,42 @@
+﻿<Window x:Class="lab04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab04"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <!-- Первая колонка (1/4 ширины окна) -->
+            <ColumnDefinition Width="3*" />
+            <!-- Вторая колонка (3/4 ширины окна) -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Панель инструментов -->
+        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Добавить" Width="120" Margin="0 0 0 5" Click="AddButton_Click" />
+            <Button Content="Редактировать" Width="120" Margin="0 0 0 5" Click="EditButton_Click" />
+            <Button Content="Удалить" Width="120" Click="DeleteButton_Click" />
+            <TextBox Width="120" Margin="0 10 0 0" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Content="Поиск" Width="120" Click="SearchButton_Click" />
+            <ComboBox Width="120" SelectedItem="{Binding SortOption, UpdateSourceTrigger=PropertyChanged}">
+                <ComboBoxItem Content="По умолчанию" />
+                <ComboBoxItem Content="По имени" />
+                <ComboBoxItem Content="По цене" />
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Основная область с вакансиями и стажировками -->
+        <ListBox x:Name="internshipListBox" Grid.Column="1" 
+                 ItemsSource="{Binding Internships}" 
+                 SelectedItem="{Binding SelectedInternship, Mode=TwoWay}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

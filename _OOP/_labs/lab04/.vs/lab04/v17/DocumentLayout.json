@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04\\lab04\\editinternshipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|solutionrelative:lab04\\editinternshipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04\\lab04\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|solutionrelative:lab04\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04\\lab04\\addinternshipwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|solutionrelative:lab04\\addinternshipwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04\\lab04\\addinternshipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D5FFAB9-46E4-4BA6-B9C4-74C4FB74ED70}|lab04\\lab04.csproj|solutionrelative:lab04\\addinternshipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditInternshipWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\EditInternshipWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab04\\EditInternshipWindow.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\EditInternshipWindow.xaml.cs",
+              "RelativeToolTip": "lab04\\EditInternshipWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T20:42:54.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab04\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab04\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T20:42:54.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddInternshipWindow.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\AddInternshipWindow.xaml",
+              "RelativeDocumentMoniker": "lab04\\AddInternshipWindow.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\AddInternshipWindow.xaml",
+              "RelativeToolTip": "lab04\\AddInternshipWindow.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:42:54.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddInternshipWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\AddInternshipWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab04\\AddInternshipWindow.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\lab04\\lab04\\AddInternshipWindow.xaml.cs",
+              "RelativeToolTip": "lab04\\AddInternshipWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T20:42:52.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\productdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\productdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\productdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\productdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\message.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\message.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\details.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\details.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\cursors\\cursorcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\cursors\\cursorcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\resources\\teal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\resources\\teal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\resources\\stringresources.rus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\resources\\stringresources.rus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\resources\\stringresources.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\resources\\stringresources.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|d:\\documents\\_university\\4_sem\\_oop\\_labs\\lab04-05\\lab04-05\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AFFED1A-B52B-44E4-A8E0-8A334B19BCE2}|Lab04-05\\Lab04-05.csproj|solutionrelative:lab04-05\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDialog.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Lab04-05\\ProductDialog.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductDialog.xaml.cs",
+              "RelativeToolTip": "Lab04-05\\ProductDialog.xaml.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAwwPoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:00:47.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab04-05\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "Lab04-05\\ProductsPage.xaml.cs",
+              "ViewState": "AQIAAAQBAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:00:41.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CursorCollection.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Cursors\\CursorCollection.cs",
+              "RelativeDocumentMoniker": "Lab04-05\\Cursors\\CursorCollection.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Cursors\\CursorCollection.cs",
+              "RelativeToolTip": "Lab04-05\\Cursors\\CursorCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:00:37.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Teal.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\Teal.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Resources\\Teal.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\Teal.xaml",
+              "RelativeToolTip": "Lab04-05\\Resources\\Teal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:59:39.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Resources\\Styles.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\Styles.xaml",
+              "RelativeToolTip": "Lab04-05\\Resources\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:56:33.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDialog.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductDialog.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\ProductDialog.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductDialog.xaml",
+              "RelativeToolTip": "Lab04-05\\ProductDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:45:28.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Message.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Message.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Message.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Message.xaml",
+              "RelativeToolTip": "Lab04-05\\Message.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:45:26.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Details.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Details.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Details.xaml",
+              "RelativeToolTip": "Lab04-05\\Details.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:45:23.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StringResources.Rus.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\StringResources.Rus.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Resources\\StringResources.Rus.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\StringResources.Rus.xaml",
+              "RelativeToolTip": "Lab04-05\\Resources\\StringResources.Rus.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:57:26.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StringResources.En.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\StringResources.En.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\Resources\\StringResources.En.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\Resources\\StringResources.En.xaml",
+              "RelativeToolTip": "Lab04-05\\Resources\\StringResources.En.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:57:24.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab04-05\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab04-05\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T20:56:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\MainWindow.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\MainWindow.xaml",
+              "RelativeToolTip": "Lab04-05\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:42:59.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\ProductsPage.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\ProductsPage.xaml",
+              "RelativeToolTip": "Lab04-05\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:45:32.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\App.xaml",
+              "RelativeDocumentMoniker": "Lab04-05\\App.xaml",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\App.xaml",
+              "RelativeToolTip": "Lab04-05\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T20:45:21.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Lab04-05\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Documents\\_university\\4_sem\\_OOP\\_labs\\Lab04-05\\Lab04-05\\AssemblyInfo.cs",
+              "RelativeToolTip": "Lab04-05\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T20:45:20.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
